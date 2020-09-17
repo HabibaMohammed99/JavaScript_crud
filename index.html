@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+
+   <div class="container my-4">
+        <div class="form-group">
+            <label>ProductName :</label>
+            <input class="form-control" id="productNameInp">
+        </div>
+        <div class="form-group">
+            <label>ProductPrice :</label>
+            <input class="form-control" id="productPriceInp">
+        </div>
+        <div class="form-group">
+            <label>ProductCategory :</label>
+            <input class="form-control" id="productCategoryInp">
+        </div>
+        <div class="form-group">
+            <label>ProductCode :</label>
+            <input class="form-control" id="productCodeInp">
+        </div>
+        <div class="form-group">
+            <label>ProductDesc :</label>
+            <textarea class="form-control" id="productDescInp"></textarea>
+        </div>
+        <div onclick="addProduct()"  class="btn btn-info float-right" >AddProduct</div>
+        <div id="update" class="float-left" ></div>
+   </div>
+   
+    <div class="clearfix">
+
+    </div>
+
+    <div class="container mt-5">
+        <h3 class="text-center mb-3" >Our Product </h3>
+        <input onkeyup="searchProduct(this.value)" class="form-control w-50 m-auto"  placeholder="search...">
+            <div class="row mt-4" id="productRow">       
+            </div>
+    </div>    
+
+   
+
+
+    <script src="js/first.js"></script>
+</body>
+</html>

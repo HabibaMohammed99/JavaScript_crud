@@ -1,0 +1,21 @@
+
+
+body
+{
+    font-family: 'segoe ui light';
+}
+
+.product
+{
+    position: relative;
+}
+.sale
+{
+    background-color: tomato;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 10px;
+}
