@@ -145,37 +145,6 @@ function updated(index)
 }
 
 
-// function updateProduct(index)
-// {
-//         for (let i = 0; i < productContainer.length; i++) {
-//             document.getElementById("productNameInp").value = productContainer[i].name;
-//             document.getElementById("productPriceInp").value = productContainer[i].price;
-//             document.getElementById("productCategoryInp").value= productContainer[i].cat;
-//             document.getElementById("productCodeInp").value = productContainer[i].code;
-//             document.getElementById("productDescInp").value = productContainer[i].desc;
-            
-//         }
-//         temp =`<div onclick="updated(`+index+`)"  class="btn btn-success float-left" >updateProduct</div>`;
-//         document.getElementById("update").innerHTML =temp;   
-// }
-// function updated(index)
-// {           
-//             productContainer[index].name = document.getElementById("productNameInp").value;
-//             productContainer[index].price = document.getElementById("productPriceInp").value;
-//             productContainer[index].cat = document.getElementById("productCategoryInp").value;
-//             productContainer[index].code = document.getElementById("productCodeInp").value;
-//             productContainer[index].desc = document.getElementById("productDescInp").value;  
-//             console.log(productContainer[index]);     
-//                     localStorage.setItem("productsData",JSON.stringify(productContainer));
-//                     displayProduct();
-//                     clearForm();
-//     }
-
-
-
-
-
-
 
 
 
